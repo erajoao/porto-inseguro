@@ -1,0 +1,126 @@
+main {
+    display: flex;
+    overflow: auto;
+    display: inline-block;
+    border-top: dotted;
+    border-right: dotted;
+    border-bottom: dotted;
+    border-left: dotted;
+    width: 800px;
+    height: 700px;
+    color: #da2d58
+}
+
+#sectionUm {
+    color: #da2d58;
+    writing-mode: vertical-rl;
+    font-size: 60px;
+    font-family: fantasy;
+    display: inline-block;
+    float: none;
+}
+
+body {
+    font-family: Lucida, Sans Unicode;
+    text-align: center;
+}
+
+#font20px {
+    font-size: 20px;
+    font-family: fantasy;
+}
+
+h1 {
+    text-decoration: underline;
+    font-family: fantasy;
+}
+
+span {
+    background: #a20000;
+    color: white;
+    border-style: outset;
+    border-color: #a20008;
+    height: 50px;
+    width: 50px;
+    font: bold 15px arial, sans-serif;
+}
+
+button:hover {
+    color: #d11e36
+}
+
+#divShadow {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 250px;
+    height: 250px;
+    color: #d11e36;
+    box-shadow: 10px 5px 5px #2e0101, 20px 5px 5px #aa1f1f, 20px 5px 5px #bb7373;
+    background-image: url("/img/pirata1.jpg");
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#divNavioUm {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("/img/going-merry.jpg");
+    display: block;
+}
+
+#divNavioDois {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("/img/thousand-sunny.png");
+    display: block;
+}
+
+#divNavioTres {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("/img/moby-dick.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-color: white;
+    display: block;
+
+}
+
+#divNavioQuatro {
+    border-radius: 100%;
+    border-top: solid;
+    border-right: solid;
+    border-bottom: solid;
+    border-left: solid;
+    width: 150px;
+    height: 150px;
+    color: #d11e36;
+    box-shadow: 5px 5px 5px #2e0101;
+    background-image: url("/img/oro-jackson.png");
+    display: block;
+}

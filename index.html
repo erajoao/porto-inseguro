@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade css 5</title>
+    <style>
+        #customers {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        #customers td,
+        #customers th {
+            border: 2px solid #ddd;
+            padding: 8px;
+        }
+
+        #customers tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        #customers tr:hover {
+            background-color: #ddd;
+        }
+
+        #customers th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: center;
+            background-color: #04AA6D;
+            color: white;
+        }
+    </style>
+        
+</head>
+<main>
+
+    <body>
+        <h1>Compre um Navio para sua Tripulação Pirata!</h1>
+        <div id="divShadow"></div>
+        <br />
+        <table id="customers">
+            <tr>
+                <th>Navio</th>
+                <th>Descrição</th>
+                <th>Preço em Bellys</th>
+            </tr>
+            <tr>
+                <td><div id="divNavioUm"></div></td>
+                <td><div id="font20px">Going Merry:</div> Um navio comum, construído com madeira barata.</td>
+                <td>5.0000.000 ฿<span><button>COMPRAR</button></span></td>
+            </tr>
+            <tr>
+                <td><div id="divNavioDois"></div></td>
+                <td><div id="font20px">Thousand Sunny:</div> Embarcação feita com madeira da árvore rara Adam e por Franky um dos melhores carpinteiros do mundo.</td>
+                <td>50.0000.000 ฿<span><button>COMPRAR</button></span></td>
+            </tr>
+            <tr>
+                <td><div id="divNavioTres"></td>
+                <td><div id="font20px">Moby Dick:</div> Poderoso e gigantesco navio com enorme capacidade de tripulantes.</td>
+                <td>75.0000.000 ฿<span><button>COMPRAR</button></span></td>
+            </tr>
+            <tr>
+                <td><div id="divNavioQuatro"></div></td>
+                <td><div id="font20px">Thousand Sunny:</div> Embarcação lendária construída da madeira da árvore Adam. Pode enfrentar todos os mares e climas</td>
+                <td>100.0000.000 ฿<span><button>COMPRAR</button></span></td>
+            </tr>
+        </table>
+
+
+    </body>
+</main>
+<div id="sectionUm">PORTO INSEGURO!</div>
+
+</html>
