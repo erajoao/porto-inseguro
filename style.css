@@ -2,7 +2,49 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
+/*SIDE NAV*/
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: underline;
+    font-family: fantasy;
+    font-size: 20px;
+    color: white;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+}
+
+#itens {
+    top: 110px;
+    background-color: goldenrod;
+    background-image: url("img/Ship-Steering-Wheel-icon.png");
+}
+
+#map {
+    top: 162px;
+    background-color: #2196F3;
+    background-image: url("img/map.jpg");
+}
+
+#missions {
+    top: 215px;
+    background-color: #f44336;
+    background-image: url("img/mission.png");
+}
+
+#news {
+    top: 268px;
+    background-color: #555;
+    background-image: url("img/noticia.jpg");
+}
 
 /*TABELA*/
 
@@ -39,9 +81,10 @@
     height: 10vh;
     display: flex;
     align-items: center;
-    gap: 50px;
+    gap: 0px;
     justify-content: center;
 }
+
 
 .container {
     position: relative;
@@ -88,14 +131,14 @@ main {
     display: flex;
     overflow: auto;
     display: inline-block;
-    background-color: #ddb4b4;
+    background-color: hsl(231, 29%, 69%);
     border-top: inset;
     border-right: inset;
     border-bottom: inset;
     border-left: inset;
     width: 800px;
     height: 750px;
-    color: #da2d58
+    color: hsl(0, 73%, 25%)
 }
 
 /*TÍTULO DA PÁGINA*/
@@ -124,21 +167,26 @@ body {
 }
 
 h1 {
-    text-decoration: underline;
-    font-family: fantasy;
-    color:hsl(0, 75%, 44%);
+    font-family: fantasy, Arial, Helvetica, sans-serif;
+    background-image: url("img/fundo.png");
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+    text-orientation: uppercase;
+
 }
 
 h2 {
     font-family: "IBM Plex Serif";
     color: hsla(0, 75%, 44%, 0.9);
 }
+
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 span {
-    background: #a20000;
+    background: #401c94;
     color: white;
     border-style: outset;
     border-color: #a20008;
@@ -148,7 +196,7 @@ span {
 }
 
 button:hover {
-    color: rgb(146, 146, 51)
+    color: yellowgreen
 }
 
 #divShadow {
@@ -159,8 +207,8 @@ button:hover {
     border-left: solid;
     width: 250px;
     height: 250px;
-    color: gold;
-    box-shadow: 8px 3px 3px #643b15, 10px 5px 5px #ec5353, 20px 5px 5px #bb7373;
+    color: rgba(0, 0, 0, 0);
+    box-shadow: 8px 3px 3px #1c1e83, 10px 5px 5px #6253ec, 20px 5px 5px #867cbb;
     background-image: url("img/pirata1.jpg");
     display: block;
     margin-left: auto;
