@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
 /*TABELA*/
 
 #customers {
@@ -77,7 +83,7 @@
     padding: 7vh 14wh;
 }
 
-/*bordas*/
+/*BORDAS*/
 main {
     display: flex;
     overflow: auto;
@@ -96,7 +102,7 @@ main {
 #sectionUm {
     color: hsla(0, 100%, 50%, 0.7);
     writing-mode: vertical-rl;
-    font-size: 11.9vh;
+    font-size: 11.1vh;
     font-family: fantasy;
     letter-spacing: 0vw;
     display: inline-block;
@@ -108,7 +114,7 @@ main {
 body {
     font-family: Lucida, Arial, Helvetica, sans-serif;
     text-align: center;
-    background-image: url("/img/fundo.png");
+    background-image: url("img/fundo.png");
     background-repeat: no-repeat;
 }
 
@@ -137,7 +143,7 @@ span {
 }
 
 button:hover {
-    color: #d11e36
+    color: rgb(146, 146, 51)
 }
 
 #divShadow {
@@ -150,7 +156,7 @@ button:hover {
     height: 250px;
     color: #f30928;
     box-shadow: 10px 5px 5px #2e0101, 20px 5px 5px #aa1f1f, 20px 5px 5px #bb7373;
-    background-image: url("/img/pirata1.jpg");
+    background-image: url("img/pirata1.jpg");
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -167,7 +173,7 @@ button:hover {
     height: 150px;
     color: #d11e36;
     box-shadow: 5px 5px 5px #2e0101;
-    background-image: url("/img/going-merry.jpg");
+    background-image: url("img/going-merry.jpg");
     display: block;
 }
 
@@ -181,7 +187,7 @@ button:hover {
     height: 150px;
     color: #d11e36;
     box-shadow: 5px 5px 5px #2e0101;
-    background-image: url("/img/thousand-sunny.png");
+    background-image: url("img/thousand-sunny.png");
     display: block;
 }
 
@@ -195,7 +201,7 @@ button:hover {
     height: 150px;
     color: #d11e36;
     box-shadow: 5px 5px 5px #2e0101;
-    background-image: url("/img/moby-dick.jpg");
+    background-image: url("img/moby-dick.jpg");
     background-position: 50%;
     background-repeat: no-repeat;
     background-color: white;
@@ -213,7 +219,7 @@ button:hover {
     height: 150px;
     color: #d11e36;
     box-shadow: 5px 5px 5px #2e0101;
-    background-image: url("/img/oro-jackson.png");
+    background-image: url("img/oro-jackson.png");
     display: block;
 }
 
